@@ -1,3 +1,3 @@
-#outer {width: 150; height: 150; background-color: red; border: 5px outset red}
-#inner {width: 50; height: 50; background-color: yellow; border: 5px outset yellow;
-position: relative;}
+#header {
+    margin: auto;
+}
