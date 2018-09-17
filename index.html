@@ -5,37 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>IS445 Homework 1</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <center>
+    <div class="bodytop">
     <div id="header">
-        <h1>Guardado, Ernesto test</h1>
+        <h1>Guardado, Ernesto</h1>
         </div>
-    <p>Welcome to IS445 Homework 1</p>
-    <img id="profile" src="http://www.sprinklesandbooze.com/wp/wp-content/uploads/2013/05/Tony-Stark-1.jpg" alt="Tony Starks">
-    <div>
-        <h2>About Me</h2>
-        <h3>Education</h3>
-        <p>2018, Bachelor of IS, CSULB</p>
-    </div>
-    <div>
-        <h3>Skills</h3>
-        <ol>
-            <li>Web programming: node.js, HTML, CSS, JavaScript</li>
-            <li>Python</li>
-        </ol>
-    </div>
-    <div>
+        <div id="profile">
+        <p>Welcome to IS445 Homework 1</p>
+         <img src="http://www.sprinklesandbooze.com/wp/wp-content/uploads/2013/05/Tony-Stark-1.jpg" width="300px" alt="Tony Starks">
+         </div>
+        </div>
+            
+         <div class="column-layout">
+            <div class="left-column">
+                <h2>About Me</h2>
+                <h3>Education</h3>
+            <p>2016, Bachelor of Marketing, CSUDH</p>
+            <h3>Skills</h3>
+            <ol>
+                <li>Web programming: HTML 5, CSS, JavaScript</li>
+                <li>Light front-end development</li>
+            </ol>
         <h3>Expecation for this course</h3>
-        <p>I'd like you to cover the Angular and best practices of Web design. More examples on CC are welcome. Please change this part to what you want to learn from this class</p>
-    </div>
-    <div>
-        <h2>Contact Me</h2>
-        <form id="Contact" name="Contact"
-                action=""
-                method="POST"
-            <field id="name"></form>
+        <p>I'd like you to cover the Angular and best practices of Web design. I want to understand how front and backend development work as well as aquiring first hand expereince in creating excuting my own website from scratch.</p>
+        </div>
 
+        <div class="right-column">
+           <div>
+               <h2>Contact Me</h2>
+            </div>
+                
+            <div class="formwrap"><form>
+                    <div class="form-row">
+                        <p>Name</p> <input type="text" name="Name"  >
+                    </div>
+                     <div class="form-row">
+                        <p>Email:</p> <input type="text" name="Email">
+                    </div>
+                    <div class="form-row">
+                            <p>Message</p> 
+                            <textarea name="message" rows="10" cols="30">
+                            </textarea>
+                    </div>
+                <input type="submit" value="Submit">
 
-    </div>
+            </form>
+        </div>
+        </div>
+    </center>
 </body>
 </html>
